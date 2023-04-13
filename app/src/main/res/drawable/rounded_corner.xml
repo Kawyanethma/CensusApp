@@ -3,3 +3,8 @@
     <corners  android:radius="50dp"/>
     <solid android:color="@color/green_500"></solid>
 </shape>
+
+<!--
+Code resource:
+https://medium.com/swlh/rounded-button-in-android-studios-fbd1ee0b3161
+-->
