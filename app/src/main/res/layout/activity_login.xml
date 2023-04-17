@@ -48,6 +48,7 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner"
         android:padding="10dp"
+        android:onClick="onclick"
         android:text="Log in"
         android:textAllCaps="false"
         android:textColor="@color/white"

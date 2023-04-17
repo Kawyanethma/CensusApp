@@ -28,7 +28,7 @@ public class Register extends AppCompatActivity {
             editText.setError("Password should be more than 5 characters");
         }else{
             editText.setError(null);
-            editor.putString("password",editText.toString());
+            editor.putString("password",editText.getText().toString());
             editor.putBoolean("REGISTERED",true);
             editor.apply();
             Intent intent = new Intent(Register.this,Home.class);

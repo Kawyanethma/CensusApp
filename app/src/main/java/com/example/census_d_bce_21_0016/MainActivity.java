@@ -9,7 +9,7 @@ import android.os.Bundle;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
-    private boolean registerd;
+    private boolean registered;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,13 +20,12 @@ public class MainActivity extends AppCompatActivity {
         //check registered or not
         Register reg = new Register();
         SharedPreferences sharedPreferences = getSharedPreferences("SharedPref",MODE_PRIVATE);
-        registerd = sharedPreferences.getBoolean("REGISTERED",false);
-        System.out.println(registerd);
+        registered = sharedPreferences.getBoolean("REGISTERED",false);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent;
-                if (registerd){
+                if (registered){
                     intent= new Intent(MainActivity.this,Login.class);
                 }
                 else{
