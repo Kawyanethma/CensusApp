@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/add_data"
+        android:icon="@drawable/baseline_data_saver_on_24"
+        android:title="Add Data"
+        />
+    <item
+        android:id="@+id/pref"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Preference" />
+</menu>
