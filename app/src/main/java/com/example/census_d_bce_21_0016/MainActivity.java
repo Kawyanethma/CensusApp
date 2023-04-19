@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).hide();
 
         //check registered or not
-        Register reg = new Register();
+
         SharedPreferences sharedPreferences = getSharedPreferences("SharedPref",MODE_PRIVATE);
         registered = sharedPreferences.getBoolean("REGISTERED",false);
         new Handler().postDelayed(new Runnable() {

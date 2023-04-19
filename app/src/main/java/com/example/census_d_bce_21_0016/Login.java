@@ -26,8 +26,7 @@ public class Login extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.loginPassword);
         SharedPreferences sharedPreferences = getSharedPreferences("SharedPref",MODE_PRIVATE);
         password = sharedPreferences.getString("password","");
-        System.out.println(password);
-        System.out.println("hello");
+
         if(password.equals(editText.getText().toString())){
             Intent intent = new Intent(Login.this,Home.class);
             startActivity(intent);
