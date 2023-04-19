@@ -12,6 +12,17 @@
         android:theme="@style/Theme.Census_DBCE210016"
         tools:targetApi="31">
         <activity
+            android:name=".ListData"
+            android:exported="false" />
+        <activity
+            android:name=".AddData"
+            android:exported="false"
+            android:label="Add to local Database" />
+        <activity
+            android:name=".ColorPicker"
+            android:exported="false"
+            android:label="Color Picker" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

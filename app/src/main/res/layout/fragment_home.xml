@@ -3,14 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".HomeFragment"
+    android:layout_margin="10dp">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="This App develpoed by\nWMK Walisundara\n(D/BCE/21/0016)"
+        android:layout_width="154dp"
+        android:layout_height="150dp"
         android:gravity="center"
-        android:textSize="25dp"/>
+        android:text="Home"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="This App develpoed by\nWMK Walisundara\n(D/BCE/21/0016)"
+        android:textSize="25dp" />
 
 </FrameLayout>
