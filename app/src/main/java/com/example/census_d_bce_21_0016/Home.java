@@ -1,23 +1,17 @@
 package com.example.census_d_bce_21_0016;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.constraint.ConstraintLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 import com.example.census_d_bce_21_0016.databinding.ActivityHomeBinding;
-import com.example.census_d_bce_21_0016.databinding.ActivityMainBinding;
 
 import java.util.Objects;
-
-import yuku.ambilwarna.AmbilWarnaDialog;
 
 public class Home extends AppCompatActivity {
     ConstraintLayout mLayout;
